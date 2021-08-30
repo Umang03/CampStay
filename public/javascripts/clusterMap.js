@@ -1,4 +1,4 @@
-mapboxgl.accessToken = MAPBOX_TOKEN;
+mapboxgl.accessToken = mapToken;
 const map = new mapboxgl.Map({
     container: 'cluster-map',
     style: 'mapbox://styles/mapbox/light-v10',
