@@ -2,7 +2,8 @@ mapboxgl.accessToken = mapToken;
 const map = new mapboxgl.Map({
     container: 'cluster-map',
     style: 'mapbox://styles/mapbox/light-v10',
-    center: [-103.59179687498357, 40.66995747013945],
+    center: [  78.15063067223812,23.92326428797734],//India Coordinates : 76.99652060770795,28.73062139516174  
+                                                  //USA Coordinates : -103.59179687498357, 40.66995747013945
     zoom: 3
 });
 
